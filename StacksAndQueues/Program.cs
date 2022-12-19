@@ -1,21 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+using System.Xml.Linq;
 
 namespace StacksandQueues
 {
-    internal class Node
+    public class Program
     {
 
-        public int data;
-        public Node Next;
-        public Node(int data)
+        static void Main(string[] args)
         {
-            this.data = data;
-            Next = null;
+            Stack_Ex stack_ = new Stack_Ex();
+            stack_.Push(70);
+            stack_.Push(30);
+            stack_.Push(56);
+            stack_.Display();
         }
     }
 }
-

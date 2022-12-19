@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StacksAndQueues
+namespace StacksandQueues
 {
     internal class Node
     {
+
         public int data;
         public Node Next;
         public Node(int data)
@@ -17,5 +18,3 @@ namespace StacksAndQueues
         }
     }
 }
-    
-
