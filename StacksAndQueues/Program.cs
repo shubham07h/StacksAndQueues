@@ -7,26 +7,11 @@ namespace StacksandQueues
 
         static void Main(string[] args)
         {
-            Stack_Ex stack_ = new Stack_Ex();
-            stack_.Push(70);
-            stack_.Push(30);
-            stack_.Push(56);
-            stack_.Display();
-            stack_.Peek();
-            stack_.Display();
-            stack_.Pop();
-            stack_.Display();
-            stack_.Pop();
-            stack_.Display();
-            stack_.Pop();
-            stack_.Display();
-            stack_.Pop();
-            stack_.Display();
-
-
-
-
-
+            Queue_Ex que = new Queue_Ex();
+            que.Enqueue(70);
+            que.Enqueue(30);
+            que.Enqueue(56);
+            que.Display();
         }
     }
 }
